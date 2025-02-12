@@ -1,5 +1,7 @@
 #include "logic.h"
 
+/*сортировка для мощнейших*/
+
 void bubble_sort(int* array, int length) {
 	for (int j = 0; j < length; j++)
 	{
