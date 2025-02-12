@@ -4,4 +4,4 @@
 using namespace std;
 
 void bubble_sort(int* array, int length);
-void selected_sort(int* array, int length);
+int selected_sort(int* array, int length);
