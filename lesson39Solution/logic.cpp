@@ -1,6 +1,6 @@
-#include "logic.h"
+п»ї#include "logic.h"
 
-/*сортировка для мощнейших*/
+/*СЃРѕСЂС‚РёСЂРѕРІРєР° РґР»СЏ РјРѕС‰РЅРµР№С€РёС…*/
 
 void bubble_sort(int* array, int length) {
 	for (int j = 0; j < length; j++)
