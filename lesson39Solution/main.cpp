@@ -14,7 +14,7 @@ int main() {
 	cout << "Before: " << convert(vector, SIZE) << endl;
 
 	//bubble_sort(vector, SIZE);
-	cout << selected_sort(vector, SIZE) << endl;
+	selected_sort(vector, SIZE);
 	cout << "After: " << convert(vector, SIZE) << endl;
 
 

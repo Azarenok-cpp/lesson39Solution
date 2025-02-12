@@ -18,11 +18,11 @@ void bubble_sort(int* array, int length) {
 			break;
 		}
 	}
+	//O(N^2), O(N) - best
 }
 
 
-int selected_sort(int* array, int length) {
-	int count = 0;
+void selected_sort(int* array, int length) {
 	for (int j = 0; j < length; j++)
 	{
 		int index = j;
@@ -31,12 +31,12 @@ int selected_sort(int* array, int length) {
 			if (array[i] < array[index]) {
 				index = i;
 			}
-			count++;
 		}
 
 		int t = array[j];
 		array[j] = array[index];
 		array[index] = t;
 	}
-	return count;
+	//O(N^2)
+
 }
